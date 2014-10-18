@@ -4,7 +4,7 @@
 //////////////////////////////////////////////////
 
 GM.Name     = "2D Deathrun"  
-GM.Author   = "Hurricaaane"  
+GM.Author   = "Hurricaaane (fixed by Niandra Lades)"  
 GM.Email    = ""  
 GM.Website  = ""  
 

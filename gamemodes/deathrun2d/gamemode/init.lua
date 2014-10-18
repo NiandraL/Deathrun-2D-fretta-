@@ -93,10 +93,12 @@ function GM:PlayerDeath( victim )
 end
 
 hook.Add( "PlayerSay", "restart", function( ply, text, team )
+	if game.GetMap() == "dr2d_prison_break_v1"
 	if ( string.sub( text, 1, 6 ) == "/repos" ) then
 		if ply:Team() == TEAM_KILLERS then
 			ply:SetPos(Vector(1189.562744, 740.533936, -86.191582))
 		end
+	end
 	end
 end )
 
